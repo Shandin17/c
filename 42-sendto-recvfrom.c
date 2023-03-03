@@ -14,7 +14,7 @@ int sendto(int s, const void *buf, int len, int flags, const struct sockaddr *to
 
 
 /**
- * @description отправка (дейтограммная)
+ * @description получение (дейтограммная)
  * args
  *      s - дескриптор сокета
  *      buf - буфер, содержащий данные для передачи либо предназначенный
